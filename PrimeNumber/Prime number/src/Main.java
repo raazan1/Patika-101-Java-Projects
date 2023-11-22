@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int sayac = 2;
@@ -19,6 +21,12 @@ public class Main {
 
             sayac++;
 
+        }
+        Scanner input = new Scanner(System.in);
+        System.out.printf("Sayi : ");
+        int N = input.nextInt();
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(N + "x" + i + "="+N*i);
         }
     }
 }
