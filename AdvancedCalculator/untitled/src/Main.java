@@ -83,7 +83,7 @@ public class Main {
             total *= i;
         }
         System.out.printf("Sonuç: " + total + "\n");
-        main();456785
+        main();
     }
     static void mod(){
         Scanner input = new Scanner(System.in);
@@ -108,6 +108,7 @@ public class Main {
         int çevre = (k+k1)*2;
 
         System.out.printf("Alan: " + alan + "\nçvere: " + çevre );
+        main();
     }
 
     static void main(){
